@@ -1,0 +1,84 @@
+  eclass exists: /var/db/repos/gentoo/eclass/gnome.org.eclass
+inherit: gnome.org -> /var/db/repos/gentoo/eclass/gnome.org.eclass
+  eclass exists: /var/db/repos/gentoo/eclass/gnome2-utils.eclass
+inherit: gnome2-utils -> /var/db/repos/gentoo/eclass/gnome2-utils.eclass
+*** Multiple Inheritance (Level: 2)
+  eclass exists: /var/db/repos/gentoo/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /var/db/repos/gentoo/eclass/toolchain-funcs.eclass
+*** Multiple Inheritance (Level: 3)
+  eclass exists: /var/db/repos/gentoo/eclass/multilib.eclass
+inherit: multilib -> /var/db/repos/gentoo/eclass/multilib.eclass
+*** Multiple Inheritance (Level: 4)
+  eclass exists: /var/db/repos/gentoo/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /var/db/repos/gentoo/eclass/toolchain-funcs.eclass
+  eclass exists: /var/db/repos/gentoo/eclass/xdg-utils.eclass
+inherit: xdg-utils -> /var/db/repos/gentoo/eclass/xdg-utils.eclass
+  eclass exists: /var/db/repos/gentoo/eclass/meson.eclass
+inherit: meson -> /var/db/repos/gentoo/eclass/meson.eclass
+*** Multiple Inheritance (Level: 2)
+  eclass exists: /var/db/repos/gentoo/eclass/multiprocessing.eclass
+inherit: multiprocessing -> /var/db/repos/gentoo/eclass/multiprocessing.eclass
+  eclass exists: /var/db/repos/gentoo/eclass/ninja-utils.eclass
+inherit: ninja-utils -> /var/db/repos/gentoo/eclass/ninja-utils.eclass
+*** Multiple Inheritance (Level: 3)
+  eclass exists: /var/db/repos/gentoo/eclass/multiprocessing.eclass
+inherit: multiprocessing -> /var/db/repos/gentoo/eclass/multiprocessing.eclass
+  eclass exists: /var/db/repos/gentoo/eclass/python-utils-r1.eclass
+inherit: python-utils-r1 -> /var/db/repos/gentoo/eclass/python-utils-r1.eclass
+*** Multiple Inheritance (Level: 3)
+  eclass exists: /var/db/repos/gentoo/eclass/multiprocessing.eclass
+inherit: multiprocessing -> /var/db/repos/gentoo/eclass/multiprocessing.eclass
+  eclass exists: /var/db/repos/gentoo/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /var/db/repos/gentoo/eclass/toolchain-funcs.eclass
+  eclass exists: /var/db/repos/gentoo/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /var/db/repos/gentoo/eclass/toolchain-funcs.eclass
+EXPORT_FUNCTIONS: src_configure -> meson_src_configure
+EXPORT_FUNCTIONS: src_compile -> meson_src_compile
+EXPORT_FUNCTIONS: src_test -> meson_src_test
+EXPORT_FUNCTIONS: src_install -> meson_src_install
+  eclass exists: /var/db/repos/gentoo/eclass/python-any-r1.eclass
+inherit: python-any-r1 -> /var/db/repos/gentoo/eclass/python-any-r1.eclass
+*** Multiple Inheritance (Level: 2)
+  eclass exists: /var/db/repos/gentoo/eclass/python-utils-r1.eclass
+inherit: python-utils-r1 -> /var/db/repos/gentoo/eclass/python-utils-r1.eclass
+_python_export: entering function, parameters: python3_8 PYTHON_PKG_DEP
+_python_export: implementation: python3.8
+_python_export: PYTHON_PKG_DEP = >=dev-lang/python-3.8.13:3.8
+_python_export: entering function, parameters: python3_9 PYTHON_PKG_DEP
+_python_export: implementation: python3.9
+_python_export: PYTHON_PKG_DEP = >=dev-lang/python-3.9.12:3.9
+_python_export: entering function, parameters: python3_10 PYTHON_PKG_DEP
+_python_export: implementation: python3.10
+_python_export: PYTHON_PKG_DEP = >=dev-lang/python-3.10.4:3.10
+_python_export: entering function, parameters: python3_11 PYTHON_PKG_DEP
+_python_export: implementation: python3.11
+_python_export: PYTHON_PKG_DEP = >=dev-lang/python-3.11.0_beta4:3.11
+EXPORT_FUNCTIONS: pkg_setup -> python-any-r1_pkg_setup
+  eclass exists: /var/db/repos/gentoo/eclass/vala.eclass
+inherit: vala -> /var/db/repos/gentoo/eclass/vala.eclass
+  eclass exists: /var/db/repos/gentoo/eclass/xdg.eclass
+inherit: xdg -> /var/db/repos/gentoo/eclass/xdg.eclass
+*** Multiple Inheritance (Level: 2)
+  eclass exists: /var/db/repos/gentoo/eclass/xdg-utils.eclass
+inherit: xdg-utils -> /var/db/repos/gentoo/eclass/xdg-utils.eclass
+EXPORT_FUNCTIONS: pkg_preinst -> xdg_pkg_preinst
+EXPORT_FUNCTIONS: pkg_postinst -> xdg_pkg_postinst
+EXPORT_FUNCTIONS: pkg_postrm -> xdg_pkg_postrm
+python-any-r1_pkg_setup: entering function, parameters: 
+python_setup: entering function, parameters: 
+_python_export: entering function, parameters: python3_11 EPYTHON PYTHON
+_python_export: implementation: python3.11
+_python_export: EPYTHON = python3.11
+_python_export: PYTHON = /usr/bin/python3.11
+_python_run_check_deps: entering function, parameters: python3_11
+_python_export: entering function, parameters: python3_11 PYTHON_PKG_DEP
+_python_export: implementation: python3.11
+_python_export: PYTHON_PKG_DEP = >=dev-lang/python-3.11.0_beta4:3.11
+_python_wrapper_setup: entering function, parameters: 
+_python_export: entering function, parameters: python3.11 EPYTHON PYTHON
+_python_export: implementation: python3.11
+_python_export: EPYTHON = python3.11
+_python_export: PYTHON = /usr/bin/python3.11
+meson_src_configure: entering function, parameters: 
+python_export_utf8_locale: entering function, parameters: 
+meson_src_compile: entering function, parameters: 

@@ -1,0 +1,1 @@
+… ~ # emerge -pqv '=app-crypt/seahorse-43.0::gentoo' 2>&1 | tee -a "${THIS_FILE}"[ebuild     U ] app-crypt/seahorse-43.0 [42.0-r1] USE="-ldap -zeroconf" 
